@@ -1,0 +1,43 @@
+.linhamedia{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blocomedio{
+	margin-top: 30px;
+}
+
+.blocomedio img{
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.blocomedio h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-bottom: 20px;	
+}
+
+.blocomedio h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin:10px 10%;
+	color:#00F;
+}
+
+.blocomedio p{
+	margin:10px 10%;
+	text-align: justify;
+}
+
+.blocomedio h4{
+	font-size: 25px;
+	background: #ccc;
+	width: 100px;
+	margin:10px 10%;
+	padding: 10px;
+	border-radius: 10px;
+}

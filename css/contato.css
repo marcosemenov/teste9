@@ -1,0 +1,32 @@
+.linhaform label{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.linhaform input{
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.linhaform textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.linhabotao {
+	margin-top: 30px;
+}
+
+.linhabotao button{
+	width: 100%;
+	font-size: 30px;
+	background: #000;
+	color: #fff;
+}
+
+.blocoGrande iframe{
+	width: 100%;
+	height: 500px;
+}

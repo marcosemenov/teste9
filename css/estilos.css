@@ -1,0 +1,116 @@
+/*css do header*/
+
+header{
+	width: 100%; 
+	height: 200px; 
+	background: #ccc; 
+	text-align: center; 
+}
+
+header h1{
+	font-family: arial; 
+	font-size: 50px; 
+	color: #00F; 
+	margin-bottom:30px; 
+	padding-top: 50px;
+}
+header p{
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold; 
+}
+/*fim header*/
+/*css da nav*/
+nav{
+	width: 100%;
+	height: 50px;
+	background: #000;
+	text-align: center;
+}
+
+ul{
+	padding-top: 10px;
+}
+
+ul li{
+	display: inline;
+	margin:0 20px; 
+}
+
+ul li a{
+	text-decoration: none; 
+	color: #FFF;
+	font-size: 25px;
+}
+
+ul li a:hover{ 
+	color: #F00;
+}
+
+main{
+	width: 100%;
+	min-height: 800px;
+	background: #fff; 
+}
+
+.linhagrande{
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+}
+
+.blocoGrande{
+	width: 80%;
+	min-height: 200px;
+	margin: 20px 5%;
+}
+
+.blocoGrande h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.blocoGrande img{
+	width: 80%;
+	height: 300px;
+	margin: 10px 10%;
+	border-radius: 20px;
+}
+
+.blocoGrande p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+.blocoPequeno h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin:10px 0;
+}
+
+.blocoPequeno img{
+	width: 80%;
+	height: 200px;
+	margin: 0 10%;
+	border-radius: 10px;
+}
+
+.blocoPequeno p{
+	margin: 10px 5px;
+	text-align: justify;
+}
+
+
+footer{
+	width: 100%;
+	height: 150px;
+	background: #000;
+}
+
+.frase{
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+}

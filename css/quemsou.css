@@ -1,0 +1,32 @@
+.linhaQuemSou{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-top: 30px;
+}
+
+.linhaQuemSou img{
+	width: 550%;
+	height: 1000px;
+	margin-left: 50px;
+}
+
+.texto h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.texto h3{
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+.texto p{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+main{
+	width: 50%;
+	min-height: 50px;
+	background: #fff; 
+}
